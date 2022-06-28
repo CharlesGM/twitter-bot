@@ -7,7 +7,7 @@ var T = new Twitter(config);
 // Set up your search parameters
 var params = {
 
-  q: '#kubernetes', //harshtag with whatever you would like to be favorited
+  q: '#<whatever hashtag>', //harshtag with whatever you would like to be favorited
   count: 2, //number of tweets you want favorited; in this case, 10
   result_type: 'recent', //specifying the most recent 10 tweets shall be favorited
   lang: 'en' //language to be english
